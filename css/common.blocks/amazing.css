@@ -12,10 +12,10 @@
     left: 0;
     top: -50%;
     bottom: 0;
-    background-color: yellow;
+    background-color: grey;
     min-height: 360px;
     transform: translatey(-50%);
-    width: 100%;
+   max-width:100%;
 
 
 }
