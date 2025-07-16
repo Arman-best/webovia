@@ -1,0 +1,135 @@
+.footer {
+    min-height: 500px;
+    background: url(../../img/footer.jpg) center/cover no-repeat;
+}
+
+.footer {
+    padding-top: 310px;
+}
+
+.footer__container {}
+
+
+.footer__top-list {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    gap: 15px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.footer__top-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__text {
+    font-size: 16px;
+    line-height: 250%;
+    color: #b6c197;
+    margin: 0;
+}
+
+.footer__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 250%;
+    color: #fff;
+    margin: 0;
+}
+
+.footer__hr {}
+
+.footer__botom-list-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    gap: 30px;
+}
+
+.footer__botom-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    justify-items: center;
+    gap: 20px;
+    border-right: 1px solid #b6c197;
+}
+
+.footer__botom-list-item {}
+
+.footer__button-sublist {}
+
+.footer__button-sublist-item {}
+
+.footer__botom-link {
+    font-size: 16px;
+    line-height: 250%;
+    color: #b6c197;
+    text-decoration: none;
+}
+
+.footer__button-box {
+    justify-self: end;
+    justify-self: start;
+}
+
+.footer__link {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 158%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer__buttom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    padding-block: 30px;
+}
+
+.footer__hr_top {
+    margin-bottom: 60px;
+}
+
+.logo {}
+
+.logo__icon {}
+
+.logo__title {}
+
+.footer__copiright {
+
+    font-size: 14px;
+    color: #b5c096;
+}
+
+@media(min-width:768px) {
+    .footer__botom-list-box {
+        grid-template-columns: 1fr 320px;
+    }
+
+    .footer__button-box {
+        justify-self: end;
+    }
+
+    .footer__botom-list {
+        justify-items: start;
+    }
+
+    .footer__top-list {
+        flex-direction: row;
+        align-self: start;
+    }
+
+    .footer__buttom {
+        flex-direction: row;
+        align-self: start;
+    }
+}
